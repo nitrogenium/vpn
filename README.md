@@ -16,8 +16,8 @@ VPN is installed by running one of the following commands in your terminal. You 
 
 | Method    | Command                                                                                           |
 | :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
-| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/nitrogenium/vpn/main/install_vpn.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/nitrogenium/vpn/main/install_vpn.sh)"`   |
 
 
 
