@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://play-lh.googleusercontent.com/jGWTmzRGONph6Z8Df6JRuTVbBrL8-k-Tdx6CDzJblf5Rcxr914wZxrdCn6G2Jta0kks"></p>
+<p align="center"><img src="https://play-lh.googleusercontent.com/jGWTmzRGONph6Z8Df6JRuTVbBrL8-k-Tdx6CDzJblf5Rcxr914wZxrdCn6G2Jta0kks" style="width: 400px;"></p>
 
 
 ## Getting Started
