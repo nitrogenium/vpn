@@ -10,7 +10,7 @@ echo "< Cow Simple VPN installer >
                 ||----w |
                 ||     ||"
 
-echo -n "Password: "
+echo "Password: "
 read -s p
 
 
